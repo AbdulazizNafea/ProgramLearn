@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IDE_page"
+    android:background="@color/background1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:background="@color/a1"
+                android:id="@+id/visual_studio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visual Studio"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/netbeans"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Net Beans"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/pycharm"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PyCharm"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/intellij_IDEA"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intellij IDEA"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/eclipse"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eclipse"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/code_block"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Code::Blocks"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/ap_studio"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aptana Studio"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/android_studio"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Studio"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/xcode"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xcode"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/xamarin_studio"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xamarin Studio"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/adruino_ide"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arduino IDE"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ruby_maine"
+                android:background="@color/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruby Main"
+                android:padding="20dp"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="-30dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
